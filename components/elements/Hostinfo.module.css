@@ -1,0 +1,201 @@
+@font-face {
+  font-family: "GreatVibes";
+  src: url(../../fonts/GreatVibes.ttf);
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url(../../fonts/Nexa_Free_Bold-webfont.woff2);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.section1 {
+  margin: 20px 20px;
+  display: inline-block;
+  max-width: 1300px;
+  /*background-color: rgb(248, 249, 250);*/
+}
+
+.couples {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  position: absolute;
+  top: -50px;
+  left: 80px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.box1 {
+  width: 400px;
+  height: 500px;
+  border: 1px solid rgba(141, 140, 140, 0.733);
+  background-color: rgba(255, 255, 255, 0.6);
+  transform: rotate(2deg);
+  display: inline-block;
+}
+
+.box2 {
+  width: 400px;
+  height: 500px;
+  border: 1px solid rgba(141, 140, 140, 0.733);
+  transform: rotate(-2deg);
+  display: inline-block;
+  padding: 30px;
+  font-family: "Nexa";
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.box3 {
+  width: 400px;
+  height: 500px;
+  border: 1px solid rgba(141, 140, 140, 0.733);
+  background-color: rgba(255, 255, 255, 0.6);
+  transform: rotate(-2deg);
+  display: inline-block;
+}
+
+.box4 {
+  width: 400px;
+  height: 500px;
+  border: 1px solid rgba(141, 140, 140, 0.733);
+  transform: rotate(2deg);
+  display: inline-block;
+  padding: 30px;
+  font-family: "Nexa";
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.name {
+  color: black;
+  font-size: 35px;
+  margin-top: 30px;
+  font-family: "Poppins";
+}
+
+.description {
+  color: rgba(141, 140, 140, 0.733);
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.section {
+  height: 100vh;
+  width: 100vw;
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading {
+  margin-top: 100px;
+  color: #e97978;
+  font-size: 6em;
+  font-family: "GreatVibes";
+  margin-bottom: 1rem;
+}
+
+.family {
+  width: 400px;
+  height: 500px;
+  border: 1px solid rgba(141, 140, 140, 0.733);
+}
+.inline {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.familyname {
+  margin: 0;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.host {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hostname {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.relation {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+@media only screen and (max-width: 900px) {
+  .name {
+    margin-top: 20px;
+  }
+  .section {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .section1 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  .heading {
+    font-size: 4em;
+  }
+
+  .box1 {
+    width: 290px;
+    height: 500px;
+  }
+
+  .box2 {
+    width: 290px;
+    height: 500px;
+    padding: 10px;
+  }
+
+  .box3 {
+    width: 290px;
+    height: 500px;
+  }
+
+  .box4 {
+    width: 290px;
+    height: 500px;
+    padding: 10px;
+  }
+
+  .image {
+    width: 200px;
+    height: 200px;
+    border-radius: 105px;
+    left: 60px;
+  }
+  .host {
+    width: 100px;
+    height: 100px;
+  }
+  .familyname {
+    font-size: 25px;
+  }
+  .relation {
+    font-size: 10px;
+  }
+  .hostname {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+  }
+}

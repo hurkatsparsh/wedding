@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "GreatVibes";
+  src: url(../fonts/GreatVibes.ttf);
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url(../fonts/Nexa_Free_Bold-webfont.woff2);
+}
+.section {
+  height: 100vh;
+  width: 100vw;
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: center;
+}
+.heading {
+  margin-top: 100px;
+  color: white;
+  font-size: 6em;
+  font-family: "GreatVibes";
+  margin-bottom: 1rem;
+}
+
+.bordertop {
+  height: 5rem;
+  filter: brightness(0) invert(1);
+  margin-bottom: 1rem;
+}
+
+.hr {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 0, 0, 0)
+  );
+  display: inline-block;
+  width: 15%;
+  margin-left: 2vw;
+  vertical-align: middle;
+}
+
+.hl {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(255, 255, 255, 0.75)
+  );
+  display: inline-block;
+  width: 15%;
+  margin-right: 2vw;
+  vertical-align: middle;
+}

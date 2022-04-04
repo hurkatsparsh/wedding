@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Nexa";
+  src: url(../../fonts/Nexa_Free_Bold-webfont.woff2);
+}
+
+@font-face {
+  font-family: "samarkan";
+  src: url(../../fonts/SAMAN___.ttf);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+section {
+  margin: 20px 20px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1300px;
+  /*background-color: rgb(248, 249, 250);*/
+}
+
+.icon {
+  width: 70px;
+}
+
+.outerbox {
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  background-size: cover;
+}
+
+.innerbox {
+  width: 270px;
+  height: 370px;
+  z-index: 1;
+  background-color: white;
+  display: inline-block;
+  margin: 15px;
+  font-family: "Poppins", sans-serif;
+  padding: 25px;
+}
+
+.date {
+  font-size: 15px;
+  color: dimgrey;
+}
+
+.venue {
+  font-size: 15px;
+  color: dimgrey;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  white-space: pre-line;
+}
+
+.title {
+  color: black;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  line-height: 25px;
+  font-family: "samarkan";
+}
+
+.backbox {
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  padding: 15px;
+}
+
+.dress {
+  width: 200px;
+}
+.dresstitle {
+  margin-top: 15px;
+  color: rgb(12, 10, 10);
+  font-size: 1.5rem;
+  line-height: 25px;
+}
+.description {
+  font-size: 15px;
+  color: dimgrey;
+}
+
+.actions {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  color: #77002e;
+  border: 1px solid #77002e;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #ffe2ed;
+}
+
+@media only screen and (max-width: 900px) {
+  .section {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Nexa";
+  src: url(../../fonts/Nexa_Free_Bold-webfont.woff2);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/*
+section {
+  margin: 20px 20px;
+  display: inline-block;
+  max-width: 1300px;
+}*/
+
+.icon {
+  width: 70px;
+}
+
+.outerbox {
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+}
+
+.innerbox {
+  width: 270px;
+  height: 370px;
+  z-index: 1;
+  background-color: white;
+  display: inline-block;
+  margin: 15px;
+  font-family: "Poppins", sans-serif;
+  padding: 25px;
+}
+
+.date {
+  font-size: 15px;
+  color: dimgrey;
+}
+
+.venue {
+  font-size: 15px;
+  color: dimgrey;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.title {
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+.actions {
+  text-align: center;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  color: #77002e;
+  border: 1px solid #77002e;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #ffe2ed;
+}
+
+@media only screen and (max-width: 900px) {
+  .section {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}

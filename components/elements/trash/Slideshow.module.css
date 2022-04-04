@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "CarroisGothicSC-Regular";
+  src: url(../../fonts/CarroisGothicSC-Regular.ttf);
+}
+
+.image {
+  width: 100vw;
+}
+
+.slider {
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  top: 0;
+  z-index: -2;
+  margin: auto;
+  background-color: black;
+}
+
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: black;
+  z-index: 2;
+  user-select: none;
+  cursor: pointer;
+}
+
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: black;
+  z-index: 2;
+  user-select: none;
+  cursor: pointer;
+}
+
+.slide {
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s ease;
+  transform: scale(1.08);
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  -moz-animation-name: fade;
+  -moz-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
